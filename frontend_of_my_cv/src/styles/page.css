@@ -1,0 +1,125 @@
+h1 {
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: rgba(0, 0, 0, 0.5) 12px 12px 8px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    /* text-decoration: underline; */
+    text-align: center;
+}
+
+/*     *** CV ***     */
+.cv-page {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    font-size: 14px;
+    /* height: 878px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    /* opacity: 0;*/
+    padding: 2rem 1rem 3rem 1rem;
+    width: 600px;
+}
+
+/*     *** MY DETAILS ***     */
+#name, .name {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 6px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.info {
+    margin-bottom: 0px;
+    margin-top: 90px;
+}
+
+.icon {
+    height: 20px;
+    width: 24px;
+    margin-right: 0.5rem;
+}
+
+.skype-icon {
+    color: dodgerblue;
+    font-size: 1.5rem;
+}
+
+.envelope {
+    height: 14px;
+}
+
+
+/*     *** PHOTO ***     */
+.photo {
+    float: right;
+    width: 190px;;
+}
+
+.photo:hover {
+    border: 1px solid rgba(0, 0, 0, 1);
+    box-shadow: rgba(0, 0, 0, 0.5) 18px 18px 6px;
+    width: 200px;
+}
+
+
+/*     *** LINKS ***     */
+a {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(0, 0, 255, 1);
+}
+
+.skype-link {
+    bottom: 0.2rem;
+    position: relative;
+}
+
+
+/*     *** LISTS ****     */
+.new-block {
+    margin-top: 1.3rem;
+    padding-left: 6px;
+}
+
+.list {
+    list-style-type: none;
+    text-align: justify;
+}
+
+.list:before {
+    content: "- ";
+}
+
+.second-row:before {
+    content: "";
+    padding-left: 0.6rem;
+}
+
+.multi-line {
+    white-space: pre-line;  
+    vertical-align: middle;
+}
+
+
+/*     *** QR CODE ****     */
+#QRcodeContainer {
+    background-color: rgba(255, 255, 255, 1);
+    float: right;
+    position: relative;
+    right: -220px;
+    top: -135px;
+    margin: 24px;
+}

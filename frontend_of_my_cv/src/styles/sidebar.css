@@ -1,0 +1,59 @@
+#sidebar {
+    background-color: rgba(0, 0, 0, 0.5);
+    float: right;
+    height: 100%;
+    /*opacity: 0;*/
+    padding-top: 2%;
+    position: fixed;
+    right: 0;
+    transition: right .3s ease-in-out;
+    top: 0;
+    width: 270px;
+}
+
+.sidebar_link {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    height: 36px;
+    padding: 12px;
+    margin-top: 6px;
+    text-align: center;
+    width: 100%;
+}
+
+.sidebar_link:before {
+    content: none;
+}
+
+.sidebar_link:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.sidebar_icon {
+    float: left;
+    height: 36px;
+    width: auto;
+}
+
+.sidebar_text {
+    position: relative;
+    top: 10px;
+}
+
+#hide_sidebar {
+    background-color: rgba(0, 150, 255, 1);
+    border-radius: 6px;
+}
+
+#hamburger_menu_icon {
+    border-bottom-left-radius: 15%;
+    float: right;
+    height: 48px;
+    padding: 2px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: auto;
+}

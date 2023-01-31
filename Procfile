@@ -1,0 +1,1 @@
+web: gunicorn backend_of_my_cv.wsgi --log-file -
